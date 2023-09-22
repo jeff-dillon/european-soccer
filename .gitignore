@@ -1,3 +1,6 @@
+# prevent the database from being loaded to github
+data/database.sqlite
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
