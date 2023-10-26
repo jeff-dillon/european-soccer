@@ -10,7 +10,7 @@ conn = sqlite3.connect(db_path)
 # Remove records where preferred_foot or overall_rating is not null
 # Only select one row per player based on highest rating
 # convert birthday to birth month (Jan, Feb, etc.)
-# Save file with id, overall_rating, and preferred_foot
+# Save file with id, overall_rating, birth_month, and preferred_foot
 player_attributes = pd.read_sql("""SELECT player_attributes.player_fifa_api_id AS 'id', 
                                             preferred_foot,
                                             CASE strftime('%m', player.birthday) 
