@@ -32,3 +32,10 @@ are database-specific - they would need to be changed when using something other
 than SQLite.
 - Explore a numeric field - get a sense for the distribution
 - Explore a categorical field
+
+
+## Demo 2: Clean the data
+
+- Remove unneeded columns
+- Remove records with NULL values
+- Translate dates to Birth Month
