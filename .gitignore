@@ -2,6 +2,7 @@ settings.json
 
 # prevent the database from being loaded to github
 data/database.sqlite
+data/player_attributes.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
